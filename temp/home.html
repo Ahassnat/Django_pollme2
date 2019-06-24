@@ -1,0 +1,21 @@
+{% extends 'base_layout.html' %}
+{% load static %}
+{% block custom_css %}
+<link rel="stylesheet" href="{% static 'css/home_style.css' %}" type="text/css">
+{% endblock %}
+{% block content %}
+ <div class="container">
+   <div class="row">
+     <div class="col">
+       <div id="home-content">
+         <h1>PollMe2 Page</h1>
+         <h3>Welcome to pollme Page</h3>
+         <hr>
+         <button type="button" class="btn btn-light btn-lg">Start ME!</button>
+       </div>
+
+     </div>
+   </div>
+
+ </div>
+{% endblock %}
